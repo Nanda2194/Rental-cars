@@ -1,7 +1,7 @@
 # Car  Rental Website  
 
 ## Description  
-This project is a responsive car and bike rental web page built using HTML, CSS, and Font Awesome icons. It allows users to search for rental options by selecting pick-up and drop-off locations, dates, and vehicle preferences.  
+This project is a responsive car  rental web page built using HTML, CSS, and Font Awesome icons. It allows users to search for rental options by selecting pick-up and drop-off locations, dates, and vehicle preferences.  
 
 ## Features  
 - **Responsive Design**: Adapts to various screen sizes, ensuring a great user experience on mobile and desktop.  
