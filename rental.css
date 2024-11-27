@@ -1,0 +1,407 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #24234D;
+    height: 70px;
+}
+.brand img{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.main_content{
+    background-color: #100225;
+    
+}
+.main_content p{
+    color: white;
+    font-size: 43px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:50px 300px;
+}
+.main_content div  input{
+    display: none;
+}
+.main_content div  label{
+    position: relative;
+    display: block;
+    background-color: #888888;
+    width: 36px;
+    height:16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 300ms linear;
+    margin-left:880px;
+}
+.main_content div  label:before{
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width:20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: left 300ms linear;
+    
+}
+.main_content div  input:checked + label{
+    background-color: #ffd700;
+}
+.main_content div  input:checked + label:before{
+    left:15px;
+}
+.main_content .togmat{
+    margin-top: -68px;
+    margin-left: 630px;
+}
+.main_content .togmat p{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.main_content .info .pickup p{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: -80px;
+    margin-left: -200px;
+}
+.info{
+    display: flex;
+    background-color: #100225;
+    color:#fff;
+}
+.pickup{
+    margin-left: 100px;
+}
+.pickup .pickupmsg{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.pickupbox{
+    position: relative;
+}
+.pickupbox input{
+    height:52px;
+    width:250px;
+    border-radius: 10px;
+}
+.pickupbox .fa-car{
+    position: absolute;
+    color: #888888;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.dropoff{
+    margin-left: 10px;
+}
+.dropoff .dropoffmsg{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.dropoffbox{
+    position: relative;
+}
+.dropoffbox input{
+    height:52px;
+    width:250px;
+    border-radius: 10px;
+}
+.dropoffbox .fa-car{
+    position: absolute;
+    color: #888888;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.pickupdate{
+    margin-left: 10px;
+}
+.pickupdate .pickupdatemsg{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.pickupdatebox input{
+    height:52px;
+    width:250px;
+    border-radius: 10px;
+}
+.dropoffdate{
+    margin-left: 10px;
+}
+.dropoffdate .dropoffdatemsg{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.dropoffdatebox input{
+    height:52px;
+    width:250px;
+    border-radius: 10px;
+}
+.search{
+    background-color: #ffd700;
+    height: 50px;
+    width:80px;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: black;
+   margin-top: 27px;
+   cursor: pointer;
+   transition: 0.3s ease-in;
+}
+.search:hover{
+    background-color:gray ;
+    transition: 0.3s ease-out;
+}
+.adss{
+    background-color: #100225;
+    
+}
+.carlogo img{
+    margin: 200px 480px;
+}
+.sponsers .sponmat{
+    color:white;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -170px;
+    padding: 0px 250px;
+}
+.sponsers .sponimg{
+    display: flex;
+}
+.sponimg{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
+}
+.sponimg img{
+    background-color: #fff;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.models{
+    background-color: #100225;   
+}
+.models .modelmat p{
+    color:white;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px 250px;
+}
+.models .modelmatsub{
+    color:white;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -70px;
+    padding: 0px 450px;
+    word-spacing: 5px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-top: 35px;
+}
+.boxes .boxcarm1{
+    background-color: #fff;
+    width: 250px;
+    height: 170px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    
+}
+.boxes .boxcarm1 img{
+    margin-top: -25px;
+    margin-left: 100px;
+}
+.boxes .boxcarm1 h4{
+    font-weight: 700;
+    padding:10px;
+    letter-spacing: 1px;
+}
+.boxes .boxcarm1 hr{
+    width:220px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.boxes .boxcarm1 p{
+    font-size:20px;
+    font-weight: 1000;
+
+}
+.boxes .boxcarm1 button{
+    background-color: #f8da32e5;
+    width:80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.boxes .boxcarm1 button:hover{
+    background-color: #ffd700;
+}
+.boxes .boxcarm1 p{
+    margin-left: 10px;
+}
+.show{
+    padding:20px;
+}
+.show p{
+   border:2px solid white;
+   color: white;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 50px;
+   margin-left: 450px;
+   padding:10px;
+   cursor: pointer;
+   transition: 0.3s ease-in;
+   border-radius: 5px;
+}
+.show p:hover{
+    transition: 0.3s ease-out;
+    border-color: #888888;
+}
+.map{
+    display: flex;
+    margin-bottom: 150px;
+}
+.maplogo img{
+margin-left: 200px;
+width: 350px;
+height: 180px;
+margin-top: 150px;
+}
+.mapmatter p{
+font-size: 30px;
+color:#545454;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+width:500px;
+word-spacing: 2px;
+text-align: center;
+margin-top: 180px;
+margin-left: 100px;
+}
+.price{
+    background-color: #100225;
+    display: flex;
+}
+.price .pricemsg{
+  color: #fff;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  width: 500px;
+  word-spacing: 1px;
+  text-align: center;
+  margin-left: 40px;
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+.price .pricemsg p{
+    color:#f8da32e5 ;
+}
+
+.mailbox{
+    position: relative;
+    background-color: #100225;
+}
+.mailbox input{
+    background-color: #fff;
+    width: 350px;
+    height:50px;
+    border-radius: 5px;
+    margin-top: 130px;
+    margin-left: 40px;
+
+}
+.mailbox  .fa-envelope{
+    position: absolute;
+    color: #888888;
+    top: 50%;
+    left: 10px;
+    margin-left: 40px;
+    margin-top: 5px;
+    transform: translateY(-50%);
+
+}
+.submit button{
+    background-color:#f8da32e5;
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 130px;
+    color: #111;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer{
+    background-color: #24234D;
+    color:#fff;
+}
+.con{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+}
+.con .contact{
+    padding: 50px 150px;
+}
+.con .term{
+    padding: 50px 150px;
+}
+.con .privacy{
+    padding: 50px 150px;
+}
+.mat{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.copy{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+@media  (max-width:786px) {
+    .brand img{
+        margin-left: 20px;
+    }
+    .main_content p{
+     padding-left: 40px;
+    }
+    .main_content div label{
+        margin-left: -400px;
+    }
+}
